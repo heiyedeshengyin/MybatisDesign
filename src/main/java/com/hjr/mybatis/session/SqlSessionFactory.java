@@ -1,4 +1,4 @@
-package com.hjr.mybatis.sqlsession;
+package com.hjr.mybatis.session;
 
 /**
  * 用于生产SqlSession对象<br>
