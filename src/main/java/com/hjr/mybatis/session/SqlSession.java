@@ -1,4 +1,4 @@
-package com.hjr.mybatis.sqlsession;
+package com.hjr.mybatis.session;
 
 /**
  * 通过动态代理返回实现dao接口的对象<br>
