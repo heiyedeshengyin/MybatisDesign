@@ -1,7 +1,7 @@
-package com.hjr.mybatis.sqlsession;
+package com.hjr.mybatis.session;
 
 import com.hjr.mybatis.cfg.Configuration;
-import com.hjr.mybatis.sqlsession.defaults.DefaultSqlSessionFactory;
+import com.hjr.mybatis.session.defaults.DefaultSqlSessionFactory;
 import com.hjr.mybatis.utils.XMLConfigBuilder;
 
 import java.io.InputStream;
