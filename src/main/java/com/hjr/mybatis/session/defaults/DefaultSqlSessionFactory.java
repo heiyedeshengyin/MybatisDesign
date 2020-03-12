@@ -1,8 +1,8 @@
-package com.hjr.mybatis.sqlsession.defaults;
+package com.hjr.mybatis.session.defaults;
 
 import com.hjr.mybatis.cfg.Configuration;
-import com.hjr.mybatis.sqlsession.SqlSession;
-import com.hjr.mybatis.sqlsession.SqlSessionFactory;
+import com.hjr.mybatis.session.SqlSession;
+import com.hjr.mybatis.session.SqlSessionFactory;
 
 /**
  * SqlSessionFactory接口的默认实现类
