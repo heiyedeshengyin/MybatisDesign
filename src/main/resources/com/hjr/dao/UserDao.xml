@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<mapper namespace="com.hjr.dao.UserDao">
+    <select id="findAll" resultType="com.hjr.domain.User">
+        select * from user
+    </select>
+</mapper>
