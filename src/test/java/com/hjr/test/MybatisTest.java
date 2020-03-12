@@ -3,9 +3,9 @@ package com.hjr.test;
 import com.hjr.dao.UserDao;
 import com.hjr.domain.User;
 import com.hjr.mybatis.io.Resources;
-import com.hjr.mybatis.sqlsession.SqlSession;
-import com.hjr.mybatis.sqlsession.SqlSessionFactory;
-import com.hjr.mybatis.sqlsession.SqlSessionFactoryBuilder;
+import com.hjr.mybatis.session.SqlSession;
+import com.hjr.mybatis.session.SqlSessionFactory;
+import com.hjr.mybatis.session.SqlSessionFactoryBuilder;
 import org.junit.Test;
 
 import java.io.IOException;
