@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<configuration>
+    <environments default="mysql">
+        <!--配置数据库类型-->
+        <environment id="mysql">
+            <!--配置事务的类型-->
+            <transactionManager type="JDBC"/>
+            <!--配置数据源-->
+            <dataSource type="POOLED">
+                <!--配置数据库基本信息-->
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/mybatis_test?useSSL=false&amp;serverTimezone=Asia/Shanghai"/>
+                <property name="username" value="xxxxxxxx"/>
+                <property name="password" value="xxxxxxxx"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!--指定映射配置文件的位置-->
+    <mappers>
+        <mapper class="com.hjr.dao.UserDao"/>
+    </mappers>
+</configuration>
