@@ -1,8 +1,8 @@
-package com.hjr.mybatis.sqlsession.defaults;
+package com.hjr.mybatis.session.defaults;
 
 import com.hjr.mybatis.cfg.Configuration;
-import com.hjr.mybatis.sqlsession.SqlSession;
-import com.hjr.mybatis.sqlsession.proxy.MapperProxy;
+import com.hjr.mybatis.session.SqlSession;
+import com.hjr.mybatis.session.proxy.MapperProxy;
 import com.hjr.mybatis.utils.DataSourceUtil;
 
 import java.lang.reflect.Proxy;
