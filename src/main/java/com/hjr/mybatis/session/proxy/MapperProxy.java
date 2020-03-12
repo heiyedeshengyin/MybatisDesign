@@ -1,4 +1,4 @@
-package com.hjr.mybatis.sqlsession.proxy;
+package com.hjr.mybatis.session.proxy;
 
 import com.hjr.mybatis.cfg.Mapper;
 import com.hjr.mybatis.utils.Executor;
